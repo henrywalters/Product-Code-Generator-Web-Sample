@@ -1,0 +1,30 @@
+{
+  "name": "product-code-generator-web-sample",
+  "version": "1.0.0",
+  "description": "Sample product code generator website integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrywalters/product-code-generator-web-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrywalters/product-code-generator-web-sample/issues"
+  },
+  "homepage": "https://github.com/henrywalters/product-code-generator-web-sample#readme",
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
